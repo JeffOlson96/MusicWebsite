@@ -1,0 +1,9 @@
+body, html {
+	height: 50%;
+	margin: 0;
+	background-color: #ffb6c1;
+}
+
+iframe {
+	float: center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+    	<link rel="stylesheet" href="styles2.css">
+    </head>
+    <body>
+    	<div id="player"></div>
+    	<!--<script>
+    		// this code loads the iframe player asynchronously
+    		var tag = document.createElement('script');
+    		tag.src = "https://www.youtube.com/iframe_api";
+    		var firstScriptTag = document.getElementsByTagName('script')[0];
+    		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    		// this guy creates an <iframe> after the api code downloads
+
+    		var player;
+    		function onYouTubeIframeAPIReady() {
+    			player = new YT.Player('player', {
+    				height: '390',
+    				width: '640',
+    				videoId: '-c9tbYAGRDc',
+    				events: {
+    					'onReady': onPlayerReady,
+    					'onStateChange': onPlayerStateChange
+    				}
+    			});
+    		}
+
+    		function onPlayerReady(event) {
+    			event.target.playVideo();
+    		}
+
+    		function onPlayerStateChange(event) {
+    			if(event.data == YT.PlayerState.PLAYING && !done) {
+
+    			}
+    		}
+
+    		function stopVideo() {
+    			player.stopVideo();
+    		}
+    	</script>-->
+    	<iframe width="420" height="345" src="https://www.youtube.com/embed/-c9tbYAGRDc"></iframe>
+    </body>
+</html>

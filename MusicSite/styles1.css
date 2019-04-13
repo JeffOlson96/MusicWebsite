@@ -1,0 +1,51 @@
+body, html {
+	height: 75%;
+	margin: 0;
+	background-color: #d4ede0;
+}
+
+#showcase {
+	background-image: url("./JeffinSF.jpg");
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#button {
+	font-size: 18px;
+    text-decoration: none;
+    color:#111111;
+    border: #111111 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#button:hover {
+	background: #111111;
+    color:#fff;
+}
+
+.btn-group button {
+	background-color: #008080;
+	border: 1px solid black;
+	color: white;
+	padding: 10px 24px;
+	cursor: pointer;
+	float: center;
+}
+
+.btn-group button:not(:last-child) {
+	border-right: none;
+}
+
+.btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.btn-group button:hover {
+	background-color: #d6d8fe;
+	color: #fff;
+}
